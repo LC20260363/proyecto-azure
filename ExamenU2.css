@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.recuadros{
+    margin-right: 6%;
+    text-align: left;
+}
+
+:placeholder-shown{
+    text-align: left;
+}
+
+.contenedor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.facebook-link {
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.facebook-link:hover {
+    background-color: #334d84;
+}
+
+.notificacion {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.separador {
+    position: relative;
+    margin: 20px 0;
+    color: #666;
+}
+
+.separador::before, .separador::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.separador::before {
+    left: 0;
+}
+
+.separador::after {
+    right: 0;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cumpleaños {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cumpleaños select {
+    width: 30%;
+}
+
+.ingresar-link {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ingresar-link:hover {
+    background-color: #218838;
+}
